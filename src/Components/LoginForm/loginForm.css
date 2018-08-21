@@ -1,0 +1,31 @@
+.login-form-container{
+	position:absolute;
+	border-radius:4px;
+	background: linear-gradient(to right, #bbbbbb , #999999);
+	padding:20px;
+	top:40px;
+	right:20px;
+	font-size:1.2em;
+	color:#eeeeee;
+}
+
+ input[type = "text"], input[type = "password"]{
+ 	border:none;
+ 	padding:15px;
+ 	height:10px;
+ 	margin: 5px 0;
+ 	border-radius: 4px;
+ 	font-size:0.8em;
+}
+
+table{
+	border:none;
+}
+
+table tr tbody label{
+	text-align:right;
+}
+
+table tr tbody input{
+	text-align:left;
+}

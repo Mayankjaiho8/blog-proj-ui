@@ -1,0 +1,8 @@
+.left-section{
+	grid-area : leftSection;
+	overflow:hidden;
+	background: #ffffff;
+	box-shadow : 0 0.5px 1px #bbbbbb;
+	grid-column:1/3;
+}
+

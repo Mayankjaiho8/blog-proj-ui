@@ -1,0 +1,19 @@
+
+.main-container{
+  width:80%;
+  margin:0 auto;
+}
+
+.grid-container{
+  display:grid;
+  grid-template-columns : repeat(8, 1fr);
+  grid-gap:5px;
+}
+
+.header, .footer{
+  background:linear-gradient(to right, #08bac4, #f1f1f1);
+}
+
+
+
+

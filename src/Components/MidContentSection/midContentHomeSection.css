@@ -1,0 +1,9 @@
+.mid-content-home-section input[type='text']{
+	height:100px;
+	display:block;
+	width:100%;
+	padding:10px;
+	border-radius:5px;
+	border:none;
+	background:#ffffee;
+}

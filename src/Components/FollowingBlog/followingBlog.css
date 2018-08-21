@@ -1,0 +1,25 @@
+.following-blog-container{
+	width:95%;
+	padding:5px;
+	margin: 15px auto;
+	background:#ffffff;
+	box-shadow: 2px 2px 2px #666666;
+	min-height: 150px;
+	max-height: 200px;
+}
+
+.following-blog-container a{
+	color:#0099cc;
+	margin-bottom:10px;
+	text-decoration:none;
+}
+
+.following-blog-container a:hover{
+	background:none;
+}
+
+.blog-summary-content{
+	color:#555555;
+	text-overflow: ellipsis;
+	max-height: 100px;
+}

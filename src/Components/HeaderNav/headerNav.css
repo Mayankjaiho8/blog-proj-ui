@@ -1,0 +1,20 @@
+.navbar{
+	float:right;
+	margin-right:2px;
+}
+
+.navbar a{
+	display:inline-block;
+	padding:5px 10px;
+	border-bottom:1px solid rgba(44, 44, 44, 0.8);
+	margin: 0 1px;
+	font-size:1em;
+	text-decoration:none;
+	transition:0.2s;
+	letter-spacing: 0.5px;
+}
+
+.navbar a:hover{
+	background:white;
+	color:black;
+}

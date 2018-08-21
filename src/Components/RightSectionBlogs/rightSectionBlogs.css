@@ -1,0 +1,9 @@
+.blogs-right-section{
+	background:#ffffee;
+	box-shadow:1px 1px 4px #666666;
+	border:none;
+	min-height:300px;
+	max-height:400px;
+	padding:8px;
+	margin-bottom:8px;
+}

@@ -1,0 +1,18 @@
+.home-grid-container{
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: repeat(8, 1fr);	
+}
+
+.home-grid-container .left-section, .mid-content-section, .right-section{
+	min-height: 490px;
+}
+
+.mid-content-section{
+	padding:10px;
+	background: #dddddd;
+	box-shadow: 2px 1px 2px #dddddd;
+	border-radius : 2px;
+	grid-column:3/7;
+	background: #f1f1f1
+}

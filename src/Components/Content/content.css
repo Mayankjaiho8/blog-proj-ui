@@ -1,0 +1,7 @@
+.content{
+  min-height:490px;
+  position:relative;
+  padding:10px;
+  background:#f1f2f3;
+  grid-column:1/9;
+}
