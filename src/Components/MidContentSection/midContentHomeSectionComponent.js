@@ -9,10 +9,17 @@ class MidContentHomeSection extends Component{
 	constructor(props){
 		super();
 		this.state = {};
+		this.toggleBlogPostContainerHandler = this.toggleBlogPostContainerHandler.bind(this);
 	}
 
 	componentDidMount(){
 		this.setState({followingBlogs : followingBlogs});
+	}
+
+	toggleBlogPostContainerHandler(){
+		const { toggleBlogPostContainerHandler } = this.props;
+
+		toggleBlogPostContainerHandler();
 	}
 
 	render(){
@@ -24,7 +31,8 @@ class MidContentHomeSection extends Component{
 
 		return(
 			<div className = 'mid-content-section mid-content-home-section'>
-				<button id = "createPost" className="btn btn-primary btn-block">Create Post</button>
+				<button id = "createPost" className="btn btn-primary btn-block" 
+				onClick = { this.toggleBlogPostContainerHandler }>Create Post</button>
 				{ followingBlogs  && followingBlogsComponentArr }
 			</div>
 			)	

@@ -1,0 +1,45 @@
+#modal-container{
+	display:block;
+	position:absolute;
+	top:50px;
+	left:50%;
+	transform:translateY(-50%);
+	min-width:500px;
+	transition:0.2s;
+	background: green
+}
+
+#modal-header, #modal-footer{
+	text-align:center;
+	font-family:arial helvetica sans-serif;
+	color:#f11ff1;
+	background:dodgerblue;
+	padding:20px;
+	height:60px;
+}
+
+#modal-content-section{
+	padding:20px;
+	background:#f1f1f1;
+	color:#bbbbbb;
+	letter-spacing:;
+}
+
+#blogForm label{
+	width:30%;
+	padding:10px;
+	text-align:right;
+}
+
+#blogForm input[type="text"]{
+	width:70%;
+	padding:10x;
+	border:1px solid dodgerblue;
+	border-radius:5px;
+}
+
+#blogForm textarea{
+	padding:10px;
+	border-radius:5px;
+	border:1px solid dodgerblue;
+}

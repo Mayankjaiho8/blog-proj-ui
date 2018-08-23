@@ -1,6 +1,8 @@
 .footer{
   height:150px;
   font-size:1.2em;
-  grid-column:1/9;
+  width:100%;
   text-align:center;
+  clear:both;
+  margin-top:20px;
 }

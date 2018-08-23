@@ -41,6 +41,16 @@ body {
 	background:#4dff4d;
 }
 
+.btn-close{
+	float:right;
+	color:white;
+	background:transparent;
+	font-size:20px;
+	border:none;
+	outline:none;
+	color:black;
+}
+
 .error-msg{
 	color:#bb0000;
 }
