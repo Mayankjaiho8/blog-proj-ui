@@ -1,12 +1,11 @@
 #modal-container{
 	display:block;
 	position:absolute;
-	top:50px;
+	top:100px;
 	left:50%;
-	transform:translateY(-50%);
+	transform:translateX(-50%);
 	min-width:500px;
 	transition:0.2s;
-	background: green
 }
 
 #modal-header, #modal-footer{
@@ -16,6 +15,7 @@
 	background:dodgerblue;
 	padding:20px;
 	height:60px;
+	width:100%;
 }
 
 #modal-content-section{
