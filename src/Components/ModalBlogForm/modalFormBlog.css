@@ -12,10 +12,11 @@
 	text-align:center;
 	font-family:arial helvetica sans-serif;
 	color:#f11ff1;
-	background:dodgerblue;
+	background:linear-gradient(to right, #08bac4, #f1f1f1);
 	padding:20px;
-	height:60px;
+	min-height:60px;
 	width:100%;
+	color:#222222;
 }
 
 #modal-content-section{

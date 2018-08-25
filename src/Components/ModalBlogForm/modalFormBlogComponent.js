@@ -25,6 +25,9 @@ class ModalFormBlog extends Component{
 	}
 
 	render(){
+		
+		const inputStyleObj = { width:'100%', padding:'20px', };
+		const textAreaStyleObj = { width:'100%', padding:'10px' }
 
 		return(
 			<div id="modal-container">
@@ -35,11 +38,10 @@ class ModalFormBlog extends Component{
 				<div id="modal-content-section">
 					<form name="blogForm">
 						<div>
-							<label>Subject : </label>
-							<input type="text" name="formSubject" placeholder = "Subject ...." />
+							<input style={ inputStyleObj } type="text" name="formSubject" placeholder = "Subject ...." />
 						</div>
 						
-						<textarea placeholder = "Enter your blog Post here"></textarea>
+						<textarea style = { textAreaStyleObj } placeholder = "Enter your blog Post here"></textarea>
 						<button className="btn-primary">Post</button>
 					</form>
 				</div>
